@@ -1,6 +1,6 @@
 # Photo Gallery App using React
 
-**DEMO : ** 
+**DEMO : https://650c1eaa970324159d56d9b4--sparkly-macaron-06f664.netlify.app/** 
 
 Developed a website for showcasing photos using React
 
