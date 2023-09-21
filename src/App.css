@@ -2,26 +2,31 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.masonry-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 16px;
+  margin: 16px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.masonry-item {
+  position: relative;
+  cursor: pointer;
+  margin-bottom: 16px;
+  grid-row: span 1;
 }
 
-.App-link {
-  color: #61dafb;
+.masonry-item img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  width: 100%;
 }
 
-h1 {
-  text-align: center;
+.masonry-item img[style*="grid-column: span 2"] {
+  grid-row: span 2;
+}
+
+.react-responsive-modal-modal {
+  max-width: 100% !important;
 }

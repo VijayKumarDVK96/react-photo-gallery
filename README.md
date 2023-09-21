@@ -5,7 +5,7 @@
 Developed a website for showcasing photos using React
 
 > **Library:** React
-> **Dependencies:** react-photo-gallery, react-images
+> **Dependencies:** react-photo-gallery, react-images (Make .env variable NPM_FLAGS = --force while deploying online)
 
 # Pseudo Code
 
